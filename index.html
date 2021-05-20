@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Room ram - Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+		</form>
+	</div>
+</div>
+<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-nav-1 flex-column">
+                    <li  class="nav-item">
+                        <a data-text='Welcome' class="nav-link" href="index.html">Welcome<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-text='About' class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a data-text='Exclusive' class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Exclusive<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="special-dishes.html">Grilled Pork</a>
+                          <a class="dropdown-item" href="special-dishes.html">Half Dozen Chewy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-text='Menu' class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-text='Team' class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a data-text='Reservation' class="nav-link" href="reservation.html">Reservation</a>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+ <div class="hero">
+  <div class="container">
+	<div class="row d-flex align-items-center">
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">JOIN OUR<br>STEAK & CLUB</h1>
+		    <div class="mb-2">
+		    	<a class="btn btn-primaryy btn-lg" href="#" role="button">RESERVATIONS</a>
+			    <a class="btn btn-icon btn-lg" href="" >
+			    	CRAFTED WITH LOVE
+			    </a>
+		    </div>
+		    <ul class="hero-info list-unstyled d-flex text-center mb-0">
+		    <a href="">
+		        <li class="border-right">
+		    		<span class="lnr lnr-dinner"></span>
+		    		<h5>
+		    			EAT
+		    		</h5>
+		    	</li>
+		    </a>
+		    <a href="">
+		        <li class="border-right">
+		    		<span class="lnr lnr-coffee-cup"></span>
+		    		<h5>
+		    			DRINK
+		    		</h5>
+		    	</li>
+		    </a>
+		    <a href="">
+		        <li class="">
+		    		<span class="lnr lnr-heart"></span>
+		    		<h5>
+		    			VISIT
+		    		</h5>
+		    	</li>
+		    </a>
+		    </ul>
+	    </div>
+	    <div class="col-lg-6 hero-right">
+	    	<div class="owl-carousel owl-theme hero-carousel">
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-1.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-2.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-3.jpg" alt="">
+			    </div>
+			</div>
+	    </div>
+	</div>
+  </div>
+</div>	
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+
+                            <h2 class="subheading">We Leave A Delicious Memory For You</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos incidunt, fugit repellendus laudantium, nostrum commodi distinctio earum eligendi exercitationem. Accusantium! <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, aut?</p>
+                        <div class="row">
+                            <div class="col-4">
+                                   <img src="img/about-thumb-01.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                   <img src="img/about-thumb-02.jpg" alt=""> 
+                            </div>
+                            <div class="col-4">
+                                   <img src="img/about-thumb-03.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-content">
+                        <div class="thumb">
+                            <a rel="nofollow" href="#"><i class="fab fa-youtube"></i></a>
+                            <img src="img/about-video-bg.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+
+                <h2 class="subheading">
+                    Exclusive
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <div class="dishes-text">
+                        <h3><span>Grilled Pork</span></h3>
+                        <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea vero alias perferendis quas animi doloribus voluptates. Atque explicabo ea nesciunt provident libero qui eum, corporis esse quos excepturi soluta?</p>
+                        <h3 class="special-dishes-price">$13.00</h3>
+                        <a href="#" class="btn-primaryy mt-3">book a table<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/steak.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/salmon-zucchini.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                   
+                    <div class="dishes-text">
+                        <h3><span>Half Dozen Chewy</span></h3>
+                        <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, accusamus culpa quam amet ipsam odit ea doloremque accusantium quo, itaque possimus eius. In a quis quibusdam omnis atque vero dolores!</p>
+                        <h3 class="special-dishes-price">$13.00</h3>
+                        <a href="#" class="btn-primaryy mt-3">book a table <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gtco-menu" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+
+                        <h2 class="subheading">
+                            Our Menu
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Flatiron</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>EGGS</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$5</h4>
+                                </div>
+                            </div>
+                            <p>Choice of protein</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Roomali</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$7</h4>
+                                </div>
+                            </div>
+                           <p>Choice of protein</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Mysore</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$5</h4>
+                                </div>
+                            </div>
+                            <p>Choice of protein</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 menu-wrap menu-inside">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Biryanis</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Onion</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$10</h4>
+                                </div>
+                            </div>
+                           <p>Choice of protein</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Gravy</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$15</h4>
+                                </div>
+                            </div>
+                            <p>Choice of protein</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Rava</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$5</h4>
+                                </div>
+                            </div>
+                            <p>Choice of protein</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Starters</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                           <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Roomali</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$7</h4>
+                                </div>
+                            </div>
+                            <p>Choice of protein</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Dosa</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$20</h4>
+                                </div>
+                            </div>
+                          <p>Choice of protein</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Pazzta</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$7</h4>
+                                </div>
+                            </div>
+                            <p>Choice of protein</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/testi-bg.jpg);">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <h2>
+                    testimonials
+                </h2>
+            </div>
+            <div class="row">
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Giardino evokes the generosity, humor and simplicity of Italian gastronomy with its unquenchable thirst for life and appreciation of exquisite flavors.</p>
+                        <p class="testi-author">Reviews</p>
+                      
+                    </div>
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text"> I enjoy a classic pasta with quality ingredients. And this pasta is absolutely delicious. The same can be said for all the free toppings!! Thank you so much, guys.</p>
+                        <p class="testi-author">Reviews</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gtco-team" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <h2 class="subheading">
+                    OUR TEAM
+                </h2>
+                <p class="mx-auto text-center mb-0">Everybody is at your service to offer the best experience possible</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-1.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">John Alex</h4>
+                            <p class="mb-1">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-2.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">John Alex</h4>
+                            <p class="mb-1">Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-3.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">John Alex</h4>
+                            <p class="mb-1">Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style="background-image: url(img/reservation-bg.jpg) ; object-fit: cover; background-size: cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="section-content bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <h2 class="subheading">
+                           Reservation
+                        </h2>
+                    </div>
+                    <form method="post" name="contact-us" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12 form-group">
+                               <input type="text" class="form-control" id="email" name="Phone" placeholder="Phone">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <select class="form-control" placeholder="time" id="selectPerson">
+                                    <option>6:00 pm</option>
+                                    <option>6:30 pm</option>
+                                    <option>7:00 pm</option>
+                                    <option>7:30 pm</option>
+                                    <option>8:00 pm</option>
+                                    <option>8:30 pm</option>
+                                    <option>9:00 pm</option>
+                                    <option>9:30 pm</option>
+                                    <option>10:00 pm</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                  <input type="text" class="form-control" id="email" name="email" placeholder="Date">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <select class="form-control" id="selectPerson">
+                                    <option>1 person</option>
+                                    <option>2 people</option>
+                                    <option>3 people</option>
+                                    <option>4 people</option>
+                                    <option>5 people</option>
+                                    <option>6 people</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" id="message" name="message"  rows="6" placeholder="Your Message ..."></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primaryy btn-shadow btn-lg" type="submit" name="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="mastfoot pb-5 bg-white section-padding pb-0">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4">
+         		<div class="footer-widget pr-lg-5 pr-0">
+         			<img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+	         		<p>Call (+11) 999–959 005<br> 2222 Victory, United States</p>
+         		</div>
+         	</div>
+         	<div class="col-lg-4">
+         		<div class="footer-widget px-lg-5 px-0">
+         			<h4>Pick Up &<br> Take Out Hours:</h4>
+	         		<ul class="list-unstyled open-hours">
+		                <li class="d-flex justify-content-between"><span>MON-SAT:</span><span>11.30PM-10PM</span></li>
+		                <li class="d-flex justify-content-between"><span>SUN:</span><span>11.30AM-9PM</span></li>
+		              </ul>
+         		</div>
+         	</div>
+         	<div class="col-lg-4">
+         		<div class="footer-widget pl-lg-5 pl-0">
+         			<h4>Subscribe to Our Newsletter</h4>
+	         		<form id="newsletter">
+						<div class="form-group">
+							<input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Enter email">
+						</div>
+						<button type="submit" class="btn btn-primaryy w-100">Submit</button>
+					</form>
+         		</div>
+         	</div>
+         	<button onclick="topFunction()" id="myBtn" title="Go to top">
+         	    <i class="fas fa-arrow-circle-up"></i>
+         	</button>
+         	<div class="col-md-12 copyfooter d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">Copyright © Turpal Alikhadzhiev, 2021. All Rights Reserved.</p>
+         		<a href="https://www.upwork.com/freelancers/~0161de6ee01befee5f">Upwork</a>
+         	</div>
+        </div>
+    </div>
+</footer>
+</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<script src="js/app.min.js "></script>
+</body>
+</html>
